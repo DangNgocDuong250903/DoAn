@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-02T04:16:56.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="Q89AOLvYlXVFxMg5wGtv" version="22.0.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-10-02T05:53:41.075Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="UlQ6Af3RghlAtBy7Jm9f" version="22.0.0" type="github" pages="10">
   <diagram name="Page-1" id="5MBGMC72kHovZt8lOIQv">
     <mxGraphModel dx="1055" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1305,6 +1305,38 @@
         </mxCell>
         <mxCell id="RTkvcZDX3bWHEEjHd-JU-72" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="730" y="770" width="10" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LgW09Ct0i2g3Rr8bRr-c" name="Lớp">
+    <mxGraphModel dx="689" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VVH5GnuuMKiXibxLGbTs-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VVH5GnuuMKiXibxLGbTs-2" value="Giao diện báo cáo" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VVH5GnuuMKiXibxLGbTs-3" value="Xử lý" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VVH5GnuuMKiXibxLGbTs-4" value="Báo cáo" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VVH5GnuuMKiXibxLGbTs-5" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=-0.004;entryY=0.505;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VVH5GnuuMKiXibxLGbTs-1" target="VVH5GnuuMKiXibxLGbTs-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="150" as="sourcePoint" />
+            <mxPoint x="390" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VVH5GnuuMKiXibxLGbTs-6" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.051;exitY=0.565;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VVH5GnuuMKiXibxLGbTs-3" target="VVH5GnuuMKiXibxLGbTs-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="240" as="sourcePoint" />
+            <mxPoint x="750" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
